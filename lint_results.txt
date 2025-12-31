@@ -1,0 +1,34 @@
+
+> portfolio@0.1.0 lint
+> eslint
+
+
+D:\portfolio\src\components\layout\Navbar.tsx
+  5:26  warning  'Github' is defined but never used    @typescript-eslint/no-unused-vars
+  5:34  warning  'Linkedin' is defined but never used  @typescript-eslint/no-unused-vars
+  5:44  warning  'Mail' is defined but never used      @typescript-eslint/no-unused-vars
+  7:10  warning  'cn' is defined but never used        @typescript-eslint/no-unused-vars
+
+D:\portfolio\src\components\sections\About.tsx
+  4:10  warning  'User' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\portfolio\src\components\sections\Hero.tsx
+  4:22  warning  'Download' is defined but never used  @typescript-eslint/no-unused-vars
+  6:10  warning  'cn' is defined but never used        @typescript-eslint/no-unused-vars
+
+D:\portfolio\src\components\sections\Projects.tsx
+   6:8  warning  'Image' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+  53:1  error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+
+D:\portfolio\src\components\sections\Skills.tsx
+   4:33  warning  'Database' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+   4:51  warning  'Code' is defined but never used                                                                                     @typescript-eslint/no-unused-vars
+   4:57  warning  'Zap' is defined but never used                                                                                      @typescript-eslint/no-unused-vars
+  24:1   error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+
+D:\portfolio\src\components\ui\StarBackground.tsx
+  7:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  8:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 15 problems (4 errors, 11 warnings)
+
