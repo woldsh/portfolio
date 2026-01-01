@@ -15,7 +15,7 @@ const projects = [
         tags: ["Next.js", "Node.js", "Firebase", "MongoDB", "MERN"],
         image: "/woldsh.png", // Placeholder
         github: "https://github.com/woldsh",
-        demo: "#",
+        demo: "https://property-management-system-t4rq.vercel.app/",
     },
     {
         id: 2,
