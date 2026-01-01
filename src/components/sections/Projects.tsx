@@ -139,8 +139,8 @@ export function Projects() {
                                                     {project.category}
                                                 </span>
                                                 <div className="flex gap-3">
-                                                    <a href={project.github} className="text-gray-400 hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
-                                                    <a href={project.demo} className="text-gray-400 hover:text-white transition-colors"><ExternalLink className="w-5 h-5" /></a>
+                                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
+                                                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors"><ExternalLink className="w-5 h-5" /></a>
                                                 </div>
                                             </div>
 
