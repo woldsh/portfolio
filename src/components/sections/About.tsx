@@ -33,7 +33,7 @@ export function About() {
                         About Me
                     </h2>
                     <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-                        I am Woldemariam Amare, a passionate Full Stack Developer with experience in building scalable web and mobile applications using the MERN stack.
+                        I am Woldemariam Amare, a passionate Full Stack Developer with experience in building scalable web and mobile applications using **Next.js**, **React**, **HTML**, **CSS**, and **JavaScript**, alongside the MERN stack.
                     </p>
                     <p className="text-gray-400 mb-8">
                         I have completed my certification from Udacity and specialize in Creating seamless user experiences. I built a comprehensive Property Management System using Next.js, Firebase, and Node.js.

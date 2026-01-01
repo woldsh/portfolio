@@ -7,7 +7,7 @@ const skillsData = [
     {
         category: "Frontend",
         icon: <AppWindow className="w-8 h-8 text-cyan-500" />,
-        skills: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
+        skills: ["Next.js", "React", "HTML", "CSS", "JavaScript", "Tailwind CSS", "TypeScript"],
     },
     {
         category: "Backend",
